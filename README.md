@@ -2,7 +2,7 @@
 # developer: 
 -- doxuanhuyen@gmail.com, 
 -- tvlongsp@gmail.com 
-Cape 7.0.4 - update 30/11/2020 
+Cape 7.0.5 - update 30/11/2020 
 ______________________________________________________________
 This version can work with Data-Sharing attribute clauses, such as: threadprivate, shared, private, firstprivate, lastprivate, copyin, reduction...
 
