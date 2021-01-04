@@ -22,8 +22,11 @@ Folder structure:
 + lib: contains cape library
 + include: contains all header files (*.h)
 + src: source code files of user lever: monitors and applications
+
 ------+ monitor: contains all monitors source code
+
 ------+ apps: contains all test application
+
 + ip_config.sh: IP config file. Contains the IP of all nodes
 + makefile: using to compile monitor, application....
 + and shell program to run CAPE applications
