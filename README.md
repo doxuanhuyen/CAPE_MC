@@ -1,13 +1,21 @@
 # CAPE_MC
-# developer: doxuanhuyen@gmail.com, tvlongsp@gmail.com 
-Cape 7.0.4 - update 30/11/2020 ______________________________________________________________
-This version can work with Data-Sharing attribute clauses, such as: 
-threadprivate, shared, private, firstprivate, lastprivate, copyin, reduction...
+# developer: 
+-- doxuanhuyen@gmail.com, 
+-- tvlongsp@gmail.com 
+Cape 7.0.4 - update 30/11/2020 
+______________________________________________________________
+This version can work with Data-Sharing attribute clauses, such as: threadprivate, shared, private, firstprivate, lastprivate, copyin, reduction...
+
 No longer use driver
+
 Monitor and application is using same process
+
 Used doublication shared variables machenism
+
 This version suport a novel execution model for CAPE that utilizes two levels of parallelism.The first distributes task on slave machines. The second a another level of parallelism in the form of multithreaded processes on slave machines with the goal of better exploiting their multicore CPUs.
+
 At node (include master node) paralel secsion use OpenMP to make application run faster. 
+
 **********************************************************************************
 Folder structure:
 + bin: contains binary code of monitors and applications 
