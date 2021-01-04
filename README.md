@@ -43,13 +43,19 @@ For developer:
 1. CAPE Monitor:
 	Source code: src/monitor/cape.c
 	Compile monitor: make monitor
+	
 2. CAPE Apps
 	Source code: src/apps/*.c
 	Developer can write new apps
+	
 3. Steps to compile and execute new apps
+
 3.1 Write new apps and put them in src/apps/
+
 3.2 Compile: ./make apps
+
 3.4 Deploy apps to all nodes: ./deploy_cape.sh
+
 3.4 run ./cape_test.sh <app_name>	
 
 
